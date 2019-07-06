@@ -38,7 +38,8 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
     // value of dice
 
 
-    if (dice !== 1) {
+    // change to 6
+    if (dice !== 6) {
         // add to player 1
         roundScore += dice;
         document.getElementById('current-' + activePlayer).textContent = roundScore;
@@ -86,9 +87,6 @@ document.querySelector('.btn-hold').addEventListener('click', function () {
     }
     
     }
-   
- 
-
 
 });
 
